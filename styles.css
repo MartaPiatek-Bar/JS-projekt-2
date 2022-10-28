@@ -1,0 +1,71 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+  text-align: center;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.name,
+.calculator,
+.equals {
+  width: 50%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.name,
+.calculator {
+  color: whitesmoke;
+  background-color: #0073df;
+}
+
+.name {
+  border-radius: 20px 20px 0 0;
+  margin-top: 10%;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.calculator {
+  border-radius: 0 0 20px 20px;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.amount,
+.currency,
+.currency-to,
+.btn {
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.btn {
+  background-color: #02c3ff;
+}
+
+.amount,
+.currency,
+.currency-to {
+  background-color: #eee5db;
+}
+
+.equals {
+  border: none;
+  border-radius: 20px;
+  color: #0073df;
+  font-size: 1.5rem;
+  font-weight: 300;
+  background-color: #a1da00;
+}
