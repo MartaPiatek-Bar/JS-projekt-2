@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap"
+    />
+  </head>
+  <body>
+    <section class="name"><span>Exchange Rate App</span></section>
+
+    <section class="calculator">
+      <form>
+        <span>Amount:</span>
+        <input type="number" class="amount" value="1" min="0" />
+        <span>Currency:</span>
+        <select class="currency">
+          <option value="EUR">EUR - Euro</option>
+          <option value="USD">USD - U.S. Dollar</option>
+          <option value="CHF">CHF - Swiss franc</option>
+        </select>
+        <span>To:</span>
+        <select class="currency-to">
+          <option value="PLN">PLN - Polish zloty</option>
+        </select>
+        <button id="getCurrency" class="btn">Convert</button>
+      </form>
+    </section>
+
+    <section>
+      <p class="equals">Result:</p>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
